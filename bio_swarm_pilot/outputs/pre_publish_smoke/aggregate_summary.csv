@@ -1,7 +1,0 @@
-scenario,system,task_completion_rate_mean,task_completion_rate_std,avg_latency_mean,avg_latency_std,error_rate_mean,error_rate_std,recovery_time_after_failure_mean,recovery_time_after_failure_std,resource_efficiency_mean,resource_efficiency_std,stability_score_mean,stability_score_std,mean_reflex_actions_mean,mean_immune_actions_mean,mean_reserve_activations_mean,mean_metabolic_rests_mean,mean_demoted_false_signals_mean,mean_nervous_fast_lane_share_mean,mean_endocrine_throttle_ratio_mean,mean_immune_replacement_ratio_mean,mean_metabolic_recovery_gain_mean
-failure_storm,baseline,0.5806451612903226,,5.791666666666667,,0.0,,10.0,,0.43012419634099724,,20.87828067352921,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-failure_storm,bio,0.8387096774193549,,2.826923076923077,,0.0,,6.0,,0.4382948135957796,,15.115760204779683,,0.1,0.0,0.1,0.0,0.15,0.2005952380952381,0.0,0.1,0.34000549709580385
-normal,baseline,0.7857142857142857,,5.318181818181818,,0.0,,9.5,,0.433518328288894,,20.12732377006052,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-normal,bio,0.9761904761904762,,1.9634146341463414,,0.0,,3.75,,0.4782832027725209,,15.733301924799035,,0.0,0.0,0.1,0.0,0.15,0.16666666666666666,0.0,0.1,0.348373701426117
-overload,baseline,0.2872340425531915,,6.981481481481482,,0.03571428571428571,,0.0,,0.33101923028364405,,17.62388559685089,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-overload,bio,0.5957446808510638,,2.8482142857142856,,0.017543859649122806,,0.0,,0.47561885225814177,,16.73400603181317,,0.25,0.15,0.1,0.0,0.1,0.1953968253968254,0.0,0.1,0.40741624109836305

@@ -8,3 +8,7 @@ venv/
 build/
 dist/
 *.egg-info/
+bio_swarm_pilot/outputs/ci_smoke/
+bio_swarm_pilot/outputs/pre_publish_smoke/
+bio_swarm_pilot/outputs/smoke_cli/
+bio_swarm_pilot/outputs/smoke_script/
