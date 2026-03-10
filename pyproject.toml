@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homeostasisbench"
+version = "0.1.0"
+description = "A benchmark for stress-testing multi-agent systems under overload, failures, false signals, and resource collapse."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "HomeostasisBench contributors"},
+]
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "pandas>=2.0",
+]
+keywords = [
+  "multi-agent-systems",
+  "benchmark",
+  "swarm-intelligence",
+  "resilience",
+  "fault-tolerance",
+]
+
+[project.scripts]
+homeostasisbench = "bio_swarm_pilot.simulation:main"
+
+[tool.setuptools.packages.find]
+include = ["bio_swarm_pilot*"]

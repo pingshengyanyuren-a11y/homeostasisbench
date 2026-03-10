@@ -1,0 +1,20 @@
+changelog:
+  categories:
+    - title: Benchmark changes
+      labels:
+        - benchmark
+        - scenario
+        - metrics
+    - title: Controllers and baselines
+      labels:
+        - controller
+        - baseline
+        - bio
+    - title: Documentation and packaging
+      labels:
+        - docs
+        - packaging
+        - release
+    - title: Other changes
+      labels:
+        - "*"
