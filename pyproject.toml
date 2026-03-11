@@ -30,4 +30,4 @@ keywords = [
 homeostasisbench = "bio_swarm_pilot.simulation:main"
 
 [tool.setuptools.packages.find]
-include = ["bio_swarm_pilot*"]
+include = ["bio_swarm_pilot*", "physio_swarm*"]

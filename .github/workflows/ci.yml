@@ -27,7 +27,9 @@ jobs:
       - name: Run tests
         run: |
           python -m unittest discover -s ./bio_swarm_pilot/tests -v
+          python -m unittest discover -s ./tests -v
 
       - name: Smoke run
         run: |
           python -m bio_swarm_pilot --steps 20 --replicates 1 --seed 42 --output-dir ./bio_swarm_pilot/outputs/ci_smoke
+          python ./examples/physio_swarm_demo.py

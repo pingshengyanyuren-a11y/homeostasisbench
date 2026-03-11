@@ -70,6 +70,7 @@ Alternative entrypoints:
 python -m bio_swarm_pilot
 python -m bio_swarm_pilot.simulation --help
 python -m unittest discover -s .\bio_swarm_pilot\tests -v
+python .\examples\physio_swarm_demo.py
 ```
 
 ## What Gets Generated
@@ -109,9 +110,17 @@ This repository is best understood as:
 
 - a benchmark for resilient multi-agent coordination
 - a reference implementation of layered control in agent swarms
-- a seed for future plug-in controllers, stronger baselines, and public leaderboards
+- a seed for future plug-in controllers, stronger baselines, public leaderboards, and a physiological swarm framework
 
-It is not yet a general-purpose agent framework. That is deliberate. The benchmark framing is more defensible and more shareable at this stage.
+It started as a benchmark first. The repository now also contains an early physiological swarm runtime and skill package under `physio_swarm/` and `skills/physio-swarm-protocol/`, but that layer is intentionally still minimal and protocol-first.
+
+## Physiological Skill
+
+The repository now includes a reusable skill and runtime for organism-style multi-agent design:
+
+- runtime: `physio_swarm/protocol.py` and `physio_swarm/kernel.py`
+- demo: `examples/physio_swarm_demo.py`
+- skill: `skills/physio-swarm-protocol/SKILL.md`
 
 ## Next
 
